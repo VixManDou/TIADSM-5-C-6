@@ -1,0 +1,6 @@
+<div class="container">
+  <app-header></app-header>
+  <app-package-list (selectPackage)="selectedPackage = $event"></app-package-list>
+  <app-package-detail *ngIf="selectedPackage" [package]="selectedPackage"></app-package-detail>
+  <app-footer></app-footer>
+</div>

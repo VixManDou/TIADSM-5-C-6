@@ -1,0 +1,23 @@
+.package-detail {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  .package-detail h2 {
+    color: #7B1A8C;
+  }
+  
+  .package-detail p {
+    color: #4A004D;
+    font-size: 18px;
+  }
+  
+  .package-detail button {
+    margin-top: 15px;
+  }
+  

@@ -1,0 +1,28 @@
+.package-list {
+    text-align: center;
+  }
+  
+  .package-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .package-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .package-card h3 {
+    color: #7B1A8C;
+  }
+  
+  .package-card p {
+    color: #4A004D;
+  }
+  

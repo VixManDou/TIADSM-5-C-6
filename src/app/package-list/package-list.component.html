@@ -1,0 +1,9 @@
+<div class="package-list">
+    <h2>Paquetes Disponibles</h2>
+    <div *ngFor="let pkg of packages" (click)="selectPackage.emit(pkg)" class="package-card">
+      <h3>{{ pkg.name }}</h3>
+      <p>{{ pkg.description }}</p>
+      <p><strong>Precio:</strong> ${{ pkg.price }}</p>
+    </div>
+  </div>
+  

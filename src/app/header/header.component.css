@@ -1,0 +1,22 @@
+header {
+    background-color: #CC6CE7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: opacity 0.3s;
+  }
+  
+  nav a:hover {
+    opacity: 0.7;
+  }
+  
